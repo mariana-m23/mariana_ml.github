@@ -60,7 +60,7 @@ export default function Layout({ children }) {
             onClick={toggleDarkMode}
             width="3rem"
             moonColor="#334155"
-            sunColor="white"
+            sunColor="pink"
             animationDuration={1}
           />
         </div>
@@ -85,21 +85,19 @@ export default function Layout({ children }) {
         <motion.div layoutId="social-icons" className="flex items-center justify-center">
           <a
             className="text-gray-400 dark:text-white hover:text-lightBlue-600 dark:hover:text-pink-500"
-            href="https://github.com/octokatherine"
+            href="https://github.com/mariana-m23"
             target="_blank"
           >
             <FontAwesomeIcon className="mr-6 text-2xl " icon={faGithub} />
           </a>
           <a
-            className="text-gray-400 dark:text-white hover:text-lightBlue-600 dark:hover:text-pink-500"
-            href="https://twitter.com/katherinecodes"
-            target="_blank"
+          
           >
             <FontAwesomeIcon className="mr-6 text-2xl" icon={faTwitter} />
           </a>
           <a
             className="text-gray-400 dark:text-white hover:text-lightBlue-600 dark:hover:text-pink-500"
-            href="https://www.linkedin.com/in/katherineoelsner/"
+            href="https://www.linkedin.com/in/marianamaricelalozano/"
             target="_blank"
           >
             <FontAwesomeIcon className="mr-6 text-2xl" icon={faLinkedinIn} />
