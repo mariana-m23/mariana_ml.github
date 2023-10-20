@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { faDev, faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faDev, faGithub, faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Head from 'next/head'
@@ -46,9 +46,9 @@ export default function Layout({ children }) {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen text-gray-800 transition duration-1000 ease-in-out dark:text-white dark:bg-blueGray-700">
       <Head>
-        <title>Katherine Oelsner</title>
+        <title>MarianaMaricelaLozano</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <script defer data-domain="katherineoelsner.com" src="https://plausible.io/js/plausible.js"></script>
+        <script defer data-domain="mariana.mlozano.com" src="https://plausible.io/js/plausible.js"></script>
       </Head>
       <div
         style={{ minWidth: '24rem', maxWidth: '37rem' }}
